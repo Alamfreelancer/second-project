@@ -1,0 +1,185 @@
+
+/* --------------
+       body css start
+        ----------------  */
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+        }
+        /* ----------------
+            header css start   
+        -------------------*/
+        header{
+            width: 100%;
+            margin-bottom: 70px;
+            background-color: #2111fd;
+            height: 680px;
+        
+        }
+        header:hover{ 
+            background-color: rgb(26, 218, 243);
+            
+        } 
+        .menu a{
+            text-decoration: none;
+            margin-left: 36px;
+        }
+        .menubar a{
+            color: white;
+            margin-right: 10px;
+        }
+        
+        .menubar{
+            display: flex;
+            justify-content: space-between;
+            padding: 80px;
+        }
+        .header{
+            display: flex;
+            margin: 0 155px;
+        }
+        span{
+            background-color: #b9352c;
+            padding: 4px 10px;
+            color: white;
+            border-radius: 5px;
+        }
+        .fas{
+            color: rgb(92, 243, 22);
+            margin-left: 10px;
+        }
+        .header{
+            color: rgb(238, 255, 0);
+        }
+        .header-information h1{
+            font-size: 64px;
+        }
+        .header-img img{
+            width: 556px;
+            height: 438px;
+        }
+        
+        /*---------------
+         project deyails main css
+         ----------------- */
+         
+        .players img{
+            width: 325px;
+            height: 256px;
+        }
+        .players{
+            width: 330px;
+            height: 474px;
+            background-color: #ffffff;
+            align-items: flex-start;
+            padding: 15px;
+            margin: 15px;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        }
+        .player-details{
+            width: 325px;
+            height: 154px;
+        }
+        .player-details h2{
+            color: red;
+        }
+
+        .player-details p{
+            font-weight: 100px;
+            color: rgb(157, 182, 182);
+        }
+        .top-players{
+            display: flex;
+            flex-wrap: wrap;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+        }
+        /* section-2 start css */
+        
+        .header-title-2-{
+            display: flex;
+            margin: 0px 155px;
+            padding: 23px;
+        }
+        /* section-3 area css  */
+        
+        .containar-3 img{
+            width: 483.87px;
+            height: 110px;
+        }
+        .logos{
+            text-align: center;
+        }
+        /* ---------------
+            footer start css
+            ------------ */
+        footer{
+            background-color: rgb(139, 210, 231);
+            padding: 30px;
+        }
+        
+        .footer-nav a{
+            font-size: 20px;
+            background-color: rgb(85, 83, 83);
+            color: rgb(241, 241, 241);
+            margin-right: 10px;
+            padding: 0 5px;
+            border-radius: 20px;
+        }
+        .footer-nav{
+            text-align: center;
+        }
+        .footer-nav-second a{
+        
+            text-decoration: none;
+            margin-right: 110px;
+            color: rgb(24, 23, 24);
+        }
+        .footer-nav-second{
+            text-align: center;
+        }
+        /* -------------------
+            Media Queries  css
+           ----------------------- */
+        
+           /* Mobile Devises */
+        
+           @media  only screen and (max-width:688px) {
+        
+            header{
+                   
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .header{
+                width: 50px;
+              height: 100px;
+             display: flex;
+             grid-template-columns: repeat(1, 1fr);
+             justify-content: center;
+             
+         }
+          .header-img img{
+            width: 220px;
+            height: 220px;
+          }
+          .header-information h1{
+            font-size: 30px;
+            width: 150px;
+            height: 150px;
+        }
+        .header{
+            margin: 0 auto;
+        }
+        .header-title-2-{
+            margin: 0 auto;
+        }
+        .containar-3 img{
+            width: 250px;
+            height: 80px;
+            margin: 0 auto;
+        }
+    }
